@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "Mongo Db services with Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://PabloSFlores@github.com/PabloSFlores/nodejs-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloSFlores/nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/PabloSFlores/nodejs-mongodb#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
